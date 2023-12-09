@@ -50,7 +50,7 @@ jobs:
         target: 'desktop'
     - name: windows build
       run: |
-        ./scripts/win_build.sh gh
+        ./scripts/win_build.ps1 gh
     - uses: actions/upload-artifact@v3
       with:
         name: artifacts-windows-x86_64
